@@ -397,8 +397,6 @@ header{
               margin-bottom: 0px;
             }
             
-            
-            
             th, td {
               padding: 20px 0;
               color: #626262;
@@ -408,7 +406,6 @@ header{
             th {
               padding-right: 20px;
             }
-            
             
             .news_li li {
                 list-style: none;
@@ -421,6 +418,8 @@ header{
             }
             
             @media (min-width: 550px) {
+              
+              padding-right: 20px;
               
               h2 {
                 @include fontsize(20);

@@ -231,16 +231,18 @@ header {
         font-weight: bold;
         margin-bottom: 3px; }
     @media (min-width: 550px) {
-      #contents .container #main h2 {
-        font-size: 20px;
-        font-size: 2rem;
-        padding-bottom: 20px; }
-      #contents .container #main .news_li li {
-        padding-bottom: 5px; }
-        #contents .container #main .news_li li span {
-          display: inline-block;
-          margin-bottom: 0;
-          margin-right: 10px; } }
+      #contents .container #main {
+        padding-right: 20px; }
+        #contents .container #main h2 {
+          font-size: 20px;
+          font-size: 2rem;
+          padding-bottom: 20px; }
+        #contents .container #main .news_li li {
+          padding-bottom: 5px; }
+          #contents .container #main .news_li li span {
+            display: inline-block;
+            margin-bottom: 0;
+            margin-right: 10px; } }
   #contents .container #sidebar {
     padding-bottom: 20px; }
     @media (max-width: 550px) {
